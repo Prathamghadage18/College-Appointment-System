@@ -15,13 +15,13 @@ Mongoose: ODM for MongoDB.
 JWT: Secure user authentication.
 Bcrypt.js: Password hashing for security.
 Jest & Supertest: Automated testing.
-Getting Started:
+# Getting Started:
 git clone https://github.com/your-username/college-appointment-system.git
 cd college-appointment-system
-Install Dependencies:
+# Install Dependencies:
 npm install express mongoose jsonwebtoken bcryptjs dotenv morgan cors
 npm install --save-dev jest supertest
-Configure Environment Variables:
+# Configure Environment Variables:
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/appointments
 JWT_SECRET=your_secret_key
 PORT=5000
